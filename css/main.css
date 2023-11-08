@@ -1,0 +1,211 @@
+/* ARTICLE */
+.home {
+  margin-left: 6rem;
+  padding: 1rem 10rem;
+  height: 100vh;
+  background-image: url("../images/background.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-primary);
+  animation: showRight 1s ease forwards;
+  animation-delay: 2.5s;
+}
+.home-content {
+  max-width: 45vw;
+  padding: 1rem;
+}
+
+.home-content h1 {
+  position: relative;
+  font-size: 50px;
+  margin: 0px;
+  margin-right: 50px;
+  line-height: 1.2;
+}
+
+.home-content h1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-primary);
+  animation: showRight 1s ease forwards;
+  animation-delay: 0.6s;
+}
+.home-content h3 {
+  position: relative;
+  font-size: 32px;
+  margin: 0;
+  color: var(--bg-secondary);
+}
+.home-content h3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-primary);
+  animation: showRight 1s ease forwards;
+  animation-delay: 1.3s;
+}
+.home-content p {
+  position: relative;
+  margin: 20px 20px 30px;
+  
+}
+.home-content p::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-primary);
+  animation: showRight 1s ease forwards;
+  animation-delay: 1.8s;
+}
+.home-content .btn-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 345px;
+  height: 50px;
+}
+.home-content .btn-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-primary);
+  animation: showRight 1s ease forwards;
+  animation-delay: 2.1s;
+  z-index: 2;
+}
+
+.btn-box a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 100%;
+  background: #00abf0;
+  border: 2px solid #00abf0;
+  border-radius: 8px;
+  font-size: 19px;
+  color: #081b29;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.btn-box a:nth-child(2) {
+  background: transparent;
+}
+.btn-box a:nth-child(1):hover {
+  color: white;
+  background: transparent;
+}
+.btn-box a:nth-child(2):hover {
+  color: white;
+}
+.btn-box a:nth-child(2)::before {
+  background: #00abf0;
+}
+
+.btn-box a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #081b29;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.btn-box a:hover::before {
+  width: 100%;
+}
+
+.home-sci {
+  position: absolute;
+  bottom: 40px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.home-sci::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-primary);
+  animation: showRight 1s ease forwards;
+  animation-delay: 2.4s;
+  z-index: 2;
+}
+.home-sci a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background: transparent;
+  border: 2px solid var(--bg-secondary);
+  border-radius: 50%;
+  font-size: 20px;
+  color: var(--bg-secondary);
+  text-decoration: none;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.home-sci a:hover {
+  color: #081b29;
+  scale: 1.2;
+}
+
+.home-sci a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--bg-secondary);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.home-sci a:hover::before {
+  width: 100%;
+}
+
+/* KEYFRAMES ANIMATION */
+@keyframes showRight {
+  100% {
+    width: 0;
+  }
+}
