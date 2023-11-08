@@ -1,0 +1,166 @@
+/* NAVBAR ANIMATIONS */
+.nav-link#current {
+  filter: grayscale(0%) opacity(1);
+  color: rgb(255, 255, 255);
+}
+.logo {
+  transform: rotate(0deg);
+  transition: 200ms ease;
+}
+.nav-link:hover {
+  padding: 0.5rem;
+  filter: grayscale(0%) opacity(1);
+  background-color: rgba(255, 255, 255, 0.37);
+  border-radius: 10px;
+  transition: 200ms ease-in-out;
+}
+.navbar:hover .nav-link i {
+  margin: 0;
+}
+.navbar:hover .logo {
+  transform: rotate(-180deg);
+}
+.navbar:hover .logo:hover {
+  transform: rotate(0deg);
+}
+
+/* WHOLE BODY */
+
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-primary);
+  animation: showRight 1s ease forwards;
+  animation-delay: 2.5s;
+}
+
+/* H1 ANIMATIONS */
+
+.home-content h1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-primary);
+  animation: showRight 1s ease forwards;
+  animation-delay: 0.6s;
+}
+
+/* H3 ANIMATIONS */
+
+.home-content h3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-primary);
+  animation: showRight 1s ease forwards;
+  animation-delay: 1.3s;
+}
+
+/* PARAGRAPH ANIMATION */
+
+.home-content p::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-primary);
+  animation: showRight 1s ease forwards;
+  animation-delay: 1.8s;
+}
+
+/* BTN AND LINK ANIMATION */
+
+.home-content .btn-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-primary);
+  animation: showRight 1s ease forwards;
+  animation-delay: 2.1s;
+  z-index: 2;
+}
+
+.btn-box a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #081b29;
+  z-index: -1;
+  transition: 0.5s;
+}
+.btn-box a:nth-child(2) {
+  background: transparent;
+}
+.btn-box a:nth-child(1):hover {
+  color: white;
+  background: transparent;
+}
+.btn-box a:nth-child(2):hover {
+  color: white;
+}
+.btn-box a:nth-child(2)::before {
+  background: #00abf0;
+}
+
+.btn-box a:hover::before {
+  width: 100%;
+}
+
+.home-sci::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-primary);
+  animation: showRight 1s ease forwards;
+  animation-delay: 2.4s;
+  z-index: 2;
+}
+
+.home-sci a:hover {
+  color: #081b29;
+  scale: 1.2;
+}
+
+.home-sci a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--bg-secondary);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.home-sci a:hover::before {
+  width: 100%;
+}
+
+/* KEYFRAMES ANIMATION */
+@keyframes showRight {
+  100% {
+    width: 0;
+  }
+}
