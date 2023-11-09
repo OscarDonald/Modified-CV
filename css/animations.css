@@ -1,4 +1,6 @@
-/* NAVBAR ANIMATIONS */
+/* 
+NAVBAR ANIMATIONS
+ */
 .navbar::before {
   content: "";
   position: absolute;
@@ -46,7 +48,9 @@
   transform: rotate(0deg);
 }
 
-/* WHOLE BODY */
+/* 
+WHOLE BODY
+ */
 
 .home::before {
   content: "";
@@ -60,7 +64,9 @@
   animation-delay: 2.5s;
 }
 
-/* H1 ANIMATIONS */
+/* 
+H1 ANIMATIONS
+ */
 
 .home-content h1::before {
   content: "";
@@ -74,7 +80,9 @@
   animation-delay: 0.6s;
 }
 
-/* H3 ANIMATIONS */
+/* 
+H3 ANIMATIONS
+ */
 
 .home-content h3::before {
   content: "";
@@ -88,7 +96,9 @@
   animation-delay: 1.3s;
 }
 
-/* PARAGRAPH ANIMATION */
+/* 
+PARAGRAPH ANIMATION
+ */
 
 .home-content p::before {
   content: "";
@@ -102,7 +112,9 @@
   animation-delay: 1.8s;
 }
 
-/* BTN AND LINK ANIMATION */
+/* 
+BTN AND LINK ANIMATION
+ */
 
 .home-content .btn-box::before {
   content: "";
@@ -146,6 +158,9 @@
   width: 100%;
 }
 
+/* 
+Social links animation
+ */
 .home-sci::before {
   content: "";
   position: absolute;
@@ -180,7 +195,9 @@
   width: 100%;
 }
 
-/* KEYFRAMES ANIMATION */
+/* 
+KEYFRAMES ANIMATION
+ */
 @keyframes showRight {
   100% {
     width: 0;

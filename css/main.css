@@ -1,4 +1,6 @@
-/* ARTICLE */
+/* 
+-------ARTICLE--------
+ */
 .home {
   margin-left: 6rem;
   padding: 1rem 10rem;
@@ -42,7 +44,9 @@
   width: 345px;
   height: 50px;
 }
-
+/* 
+Creating buttons
+ */
 .btn-box a {
   position: relative;
   display: inline-flex;
@@ -62,7 +66,9 @@
   overflow: hidden;
   transition: 0.5s;
 }
-
+/* 
+Links to my socials 
+*/
 .home-sci {
   position: absolute;
   bottom: 40px;
@@ -88,11 +94,9 @@
   overflow: hidden;
   transition: 0.5s;
 }
-
-/* --------------------INSPELNING OM API------------------------------
-https://drive.google.com/file/d/1-6Tpdn6o6ZzeqKUTsBfGwwbGQ9WL90Ju/view 
----------------------------------------------------------------------*/
-
+/* 
+Creating my contact form 
+*/
 .heading {
   display: flex;
   justify-content: center;
@@ -123,7 +127,9 @@ https://drive.google.com/file/d/1-6Tpdn6o6ZzeqKUTsBfGwwbGQ9WL90Ju/view
   width: 49%;
   margin: 0.8rem 0;
 }
-
+/* 
+Styling the form
+ */
 .contact form .input-box .input-field input,
 .contact form .textarea-field textarea {
   width: 100%;
@@ -140,17 +146,25 @@ https://drive.google.com/file/d/1-6Tpdn6o6ZzeqKUTsBfGwwbGQ9WL90Ju/view
   font-weight: 600;
 }
 
-/* Removes arrow up and down on mobilenumber field */
+/* 
+Removes arrow up and down on mobilenumber field
+First one is for Chrome, Edge, Opera 
+*/
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+/* 
+This one is for Firefox
+ */
 input[type="number"] {
   -moz-appearance: textfield;
 }
 
-/* Allows me to get an animation when the field is focused */
+/* 
+Allows me to get an animation when the field is focused
+ */
 .contact form .input-box .input-field input:focus ~ .focus,
 .contact form .input-box .input-field input:valid ~ .focus,
 .contact form .textarea-field textarea:focus ~ .focus,
@@ -189,15 +203,28 @@ input[type="number"] {
   color: var(--bg-secondary);
 }
 
+
+
+
+/* --------------------INSPELNING OM API------------------------------
+https://drive.google.com/file/d/1-6Tpdn6o6ZzeqKUTsBfGwwbGQ9WL90Ju/view 
+---------------------------------------------------------------------*/
+/*
+  Media queries
+  */
 @media only screen and (max-width: 1600px){
-  /* -----ARTICLE----- */
+  /* 
+  -----ARTICLE-----
+   */
   .home{
     margin-left: 0;
     padding: 1rem 6rem;
   }
 }
 @media only screen and (max-width: 600px) {
-  /* -----ARTICLE----- */
+  /* 
+  -----ARTICLE-----
+   */
   .home {
     margin: 0;
     padding: 0;
@@ -229,7 +256,9 @@ input[type="number"] {
     bottom: 100px;
     left: 20px;
   }
-  /* -----CONTACT----- */
+  /* 
+  -----CONTACT-----
+   */
   .contact {
     margin: auto;
     scale: 0.8;

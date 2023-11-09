@@ -1,4 +1,6 @@
-/* Default settings */
+/* 
+Default settings
+ */
 
 * {
   box-sizing: border-box;
@@ -10,7 +12,9 @@
   --bg-secondary: #006466;
 }
 
-/* Body and scrollbar */
+/* 
+Body and scrollbar
+ */
 
 body {
   background-color: var(--bg-primary);
@@ -32,7 +36,9 @@ main {
   padding: 1rem;
 }
 
-/* NAVBAR */
+/* 
+NAVBAR
+ */
 
 .navbar {
   position: fixed;
@@ -80,7 +86,9 @@ main {
 }
 
 /* Media queries */
-/* Small screens */
+/* 
+Small screens
+ */
 @media only screen and (max-width: 600px) {
   .navbar {
     bottom: 0;
@@ -102,7 +110,9 @@ main {
   }
 }
 
-/* Large screens */
+/* 
+Large screens
+ */
 @media only screen and (min-width: 600px) {
   .navbar {
     top: 0;
