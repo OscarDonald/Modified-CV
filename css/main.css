@@ -19,7 +19,7 @@
   position: relative;
   font-size: 50px;
   margin: 0px;
-  margin-right: 50px;
+  
   line-height: 1.2;
 }
 
@@ -87,4 +87,155 @@
   z-index: 1;
   overflow: hidden;
   transition: 0.5s;
+}
+
+/* --------------------INSPELNING OM API------------------------------
+https://drive.google.com/file/d/1-6Tpdn6o6ZzeqKUTsBfGwwbGQ9WL90Ju/view 
+---------------------------------------------------------------------*/
+
+.heading {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  color: var(--bg-secondary);
+}
+.contact {
+  margin-left: 6rem;
+  margin-right: 1rem;
+  min-height: auto;
+  padding-bottom: 7rem;
+}
+
+.contact form {
+  max-width: 70rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.contact form .input-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact form .input-box .input-field {
+  position: relative;
+  width: 49%;
+  margin: 0.8rem 0;
+}
+
+.contact form .input-box .input-field input,
+.contact form .textarea-field textarea {
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  background: transparent;
+  border-radius: 0.6rem;
+  border: 0.2rem solid var(--bg-secondary);
+}
+
+.contact form .input-box .input-field input::placeholder,
+.contact form .textarea-field textarea::placeholder {
+  font-weight: 600;
+}
+
+/* Removes arrow up and down on mobilenumber field */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Allows me to get an animation when the field is focused */
+.contact form .input-box .input-field input:focus ~ .focus,
+.contact form .input-box .input-field input:valid ~ .focus,
+.contact form .textarea-field textarea:focus ~ .focus,
+.contact form .textarea-field textarea:valid ~ .focus {
+  width: 100%;
+}
+.contact form .focus {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--bg-secondary);
+  border-radius: 0.6rem;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.contact form .textarea-field {
+  position: relative;
+  margin: 0.8rem 0 2.7rem;
+  display: flex;
+}
+
+.contact form .textarea-field textarea {
+  resize: none;
+}
+
+.contact form .btn-box.btns .btn {
+  cursor: pointer;
+}
+
+.btn-box .btn {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--bg-secondary);
+}
+
+@media only screen and (max-width: 1600px){
+  /* -----ARTICLE----- */
+  .home{
+    margin-left: 0;
+    padding: 1rem 6rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* -----ARTICLE----- */
+  .home {
+    margin: 0;
+    padding: 0;
+    background-position: 70%;
+  }
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    height: 100%;
+  }
+  .home-content h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  .home-content h3 {
+    font-size: 1.5rem;
+  }
+  .home-content p {
+    width: 170%;
+    margin: 0;
+  }
+  .home-content .btn-box {
+    position: absolute;
+    bottom: 170px;
+  }
+  .home-sci {
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+  }
+  /* -----CONTACT----- */
+  .contact {
+    margin: auto;
+    scale: 0.8;
+    height: 400px;
+  }
+  .input-box .textarea-field {
+    font-size: 1rem;
+  }
 }

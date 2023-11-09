@@ -27,7 +27,7 @@
     />
   </head>
   <body id="body">
-    <!-- NAVBAR -->
+    <!----------------------- NAVBAR ------------------->
     <nav class="nav">
       <nav class="navbar">
         <ul class="navbar-nav">
@@ -61,6 +61,12 @@
             >
           </li>
           <li class="nav-item">
+            <a href="weatherapp.html" class="nav-link">
+              <i class="fa-regular fa-sun"></i>
+              <span class="link-text">Weather</span></a
+            >
+          </li>
+          <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="fa-regular fa-star"></i>
               <span class="link-text">Theme</span></a
@@ -69,5 +75,49 @@
         </ul>
       </nav>
     </nav>
+    <!----------------- CONTACT SECTION ---------------->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact Me!</h2>
+
+      <form action="#">
+        <div class="input-box">
+          <div class="input-field">
+            <input type="text" placeholder="Full Name" required />
+            <span class="focus"></span>
+          </div>
+          <div class="input-field">
+            <input type="text" placeholder="Email Adress" required />
+            <span class="focus"></span>
+          </div>
+        </div>
+
+        <div class="input-box">
+          <div class="input-field">
+            <input type="number" placeholder="Mobile Number" required />
+            <span class="focus"></span>
+          </div>
+          <div class="input-field">
+            <input type="text" placeholder="Email Subject" required />
+            <span class="focus"></span>
+          </div>
+        </div>
+
+        <div class="textarea-field">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <span class="focus"></span>
+        </div>
+
+        <div class="btn-box btns">
+          <button type="submit" class="btn">Submit</button>
+        </div>
+      </form>
+    </section>
   </body>
 </html>
