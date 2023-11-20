@@ -1,33 +1,31 @@
-# Modified CV
+Project Title: Modified CV-page
 
-Projekttitel: Modified CV
+Hello and welcome to my modern CV page! My name is Oscar Donaldson, and I'm excited to present the project where I've created a personal CV page using HTML, CSS, and JavaScript.
 
-Hej och välkommen till min moderna CV-sida! Mitt namn är Oscar Donaldson, och jag är stolt över att presentera det projekt där jag har skapat en personlig CV-sida med hjälp av HTML, CSS och JavaScript.
-
-Tekniska Aspekter:
+Technical Aspects:
 
 HTML:
-Jag använde HTML för att strukturera och organisera innehållet på sidan. Genom att använda semantiska taggar, som <header>, <section>, och <nav> skapade jag en tydlig och lättläst struktur.
+I utilized HTML to structure and organize the content on the page. Employing semantic tags such as <header>, <section>, and <nav>, I established a clear and easily readable structure.
 
 CSS:
-För att ge sidan en attraktiv och enhetlig design använde jag CSS. Jag implementerade responsiv design för att se till att CV-sidan ser bra ut på olika skärmstorlekar och enheter. Anpassade stilar och layout valdes noggrant för att reflektera min professionella image.
+To give the page an attractive and cohesive design, I employed CSS. I implemented responsive design to ensure the CV page looks great on various screen sizes and devices. Custom styles and layout choices were made thoughtfully to reflect a professional image.
 
 JavaScript:
-För att lägga till interaktivitet och förbättra användarupplevelsen integrerade jag JavaScript. Detta inkluderade dynamisk laddning av data och eventhantering för att göra sidan mer levande och engagerande.
+To add interactivity and enhance the user experience, I integrated JavaScript. This included dynamically loading data and event handling to make the page more lively and engaging.
 
-Funktionalitet:
+Functionality:
 
-Dynamiskt Innehåll:
-Genom att använda JavaScript laddas viktig information dynamiskt, vilket skapar en smidigare användarupplevelse och minimerar sidans laddningstid.
+Dynamic Content:
+Important information is loaded dynamically using JavaScript, creating a smoother user experience and minimizing page loading time.
 
-Interaktivt Formulär:
-Ett interaktivt kontaktformulär implementerades med validering för att förenkla kommunikationen mellan besökare och mig.
+Interactive Form:
+An interactive contact form was implemented with validation to simplify communication between visitors and myself.
 
-Anpassad Animering:
-För att ge sidan en extra touch av professionalism använde jag anpassad animation för att framhäva vissa element och göra övergångar mer eleganta.
+Custom Animation:
+To give the page an extra touch of professionalism, I used custom animation to highlight certain elements and make transitions more elegant.
 
-Slutsatser:
+Conclusions:
 
-Detta projekt representerar inte bara min tekniska kompetens inom webbutveckling utan visar också min kreativitet och strävan efter att skapa en CV-sida som inte bara är informativ utan även estetiskt tilltalande. Jag är övertygad om att denna moderna CV-sida kommer att hjälpa mig att sticka ut och göra ett starkt intryck på potentiella arbetsgivare.
+This project not only showcases my technical proficiency in web development but also demonstrates my creativity and commitment to creating a CV page that is not only informative but also aesthetically pleasing. I am confident that this modern CV page will help me stand out and make a strong impression on potential employers.
 
-Tack för att du tagit dig tid att utforska mitt projekt!
+Thank you for taking the time to explore my project!
