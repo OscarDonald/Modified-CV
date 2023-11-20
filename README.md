@@ -5,7 +5,7 @@ Hello and welcome to my modern CV page! My name is Oscar Donaldson, and I'm exci
 Technical Aspects:
 
 HTML:
-I utilized HTML to structure and organize the content on the page. Employing semantic tags such as <header>, <section>, and <nav>, I established a clear and easily readable structure.
+I utilized HTML to structure and organize the content on the page. Employing semantic tags such as header, section, and nav, I established a clear and easily readable structure.
 
 CSS:
 To give the page an attractive and cohesive design, I employed CSS. I implemented responsive design to ensure the CV page looks great on various screen sizes and devices. Custom styles and layout choices were made thoughtfully to reflect a professional image.
