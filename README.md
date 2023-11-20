@@ -2,7 +2,7 @@
 
 Projekttitel: Modified CV
 
-Hej och välkommen till min moderna CV-sida! Mitt namn är [Ditt Namn], och jag är stolt över att presentera det projekt där jag har skapat en personlig CV-sida med hjälp av HTML, CSS och JavaScript.
+Hej och välkommen till min moderna CV-sida! Mitt namn är Oscar Donaldson, och jag är stolt över att presentera det projekt där jag har skapat en personlig CV-sida med hjälp av HTML, CSS och JavaScript.
 
 Tekniska Aspekter:
 
