@@ -85,8 +85,7 @@ NAVBAR
   color: var(--text-primary);
 }
 
-/* Media queries */
-/* 
+/* Media queries
 Small screens
  */
 @media only screen and (max-width: 600px) {

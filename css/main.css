@@ -21,7 +21,7 @@
   position: relative;
   font-size: 50px;
   margin: 0px;
-  
+
   line-height: 1.2;
 }
 
@@ -160,6 +160,7 @@ This one is for Firefox
  */
 input[type="number"] {
   -moz-appearance: textfield;
+  appearance: textfield;
 }
 
 /* 
@@ -203,8 +204,63 @@ Allows me to get an animation when the field is focused
   color: var(--bg-secondary);
 }
 
+/* 
+-------------- PORTFOLIO -----------------
+*/
 
+.project-boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
+.project-box {
+  margin: 3rem;
+  padding: 1rem;
+  border: 5px solid var(--bg-secondary);
+  border-radius: 1rem;
+  width: 30vw;
+  height: 40vh;
+}
+
+.project-box h3 {
+  font-size: 2rem;
+}
+
+/*  
+-------------- EDUCATION -------------
+*/
+.education {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.education h2 {
+  margin: 0;
+  padding: 1rem;
+  font-size: 2.5rem;
+}
+.education-boxes {
+  display: flex;
+
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.education-box {
+  margin: 2rem;
+  padding: 1rem;
+  border: 5px solid var(--bg-secondary);
+  border-radius: 1rem;
+  width: 40vw;
+  height: 40vh;
+}
+
+.education-box h3 {
+  font-size: 2rem;
+}
 
 /* --------------------INSPELNING OM API------------------------------
 https://drive.google.com/file/d/1-6Tpdn6o6ZzeqKUTsBfGwwbGQ9WL90Ju/view 
@@ -212,11 +268,11 @@ https://drive.google.com/file/d/1-6Tpdn6o6ZzeqKUTsBfGwwbGQ9WL90Ju/view
 /*
   Media queries
   */
-@media only screen and (max-width: 1600px){
+@media only screen and (max-width: 1600px) {
   /* 
   -----ARTICLE-----
    */
-  .home{
+  .home {
     margin-left: 0;
     padding: 1rem 6rem;
   }
@@ -224,7 +280,7 @@ https://drive.google.com/file/d/1-6Tpdn6o6ZzeqKUTsBfGwwbGQ9WL90Ju/view
 @media only screen and (max-width: 600px) {
   /* 
   -----ARTICLE-----
-   */
+  */
   .home {
     margin: 0;
     padding: 0;
@@ -258,7 +314,7 @@ https://drive.google.com/file/d/1-6Tpdn6o6ZzeqKUTsBfGwwbGQ9WL90Ju/view
   }
   /* 
   -----CONTACT-----
-   */
+  */
   .contact {
     margin: auto;
     scale: 0.8;
@@ -266,5 +322,25 @@ https://drive.google.com/file/d/1-6Tpdn6o6ZzeqKUTsBfGwwbGQ9WL90Ju/view
   }
   .input-box .textarea-field {
     font-size: 1rem;
+  }
+  /* 
+  -----Portfolio-----
+  */
+  .portfolio {
+    margin-bottom: 6rem;
+  }
+  .project-box {
+    width: 90vw;
+    margin: 2rem;
+  }
+  /* 
+  -----Education-----
+  */
+  .education {
+    margin-left: 0;
+    margin-bottom: 6rem;
+  }
+  .education-box {
+    width: 90vw;
   }
 }
