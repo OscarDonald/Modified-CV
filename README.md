@@ -29,3 +29,4 @@ Conclusions:
 This project not only showcases my technical proficiency in web development but also demonstrates my creativity and commitment to creating a CV page that is not only informative but also aesthetically pleasing. I am confident that this modern CV page will help me stand out and make a strong impression on potential employers.
 
 Thank you for taking the time to explore my project!
+https://github.com/OscarDonald/Modified-CV
