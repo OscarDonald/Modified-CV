@@ -74,6 +74,16 @@ NAVBAR
   text-decoration: none;
   filter: grayscale(100%) opacity(0.6);
 }
+.dark-mode-button {
+  height: 4rem;
+  filter: grayscale(100%) opacity(0.6);
+  color: black;
+}
+.dark-mode-button-index {
+  height: 4rem;
+  filter: grayscale(100%) opacity(0.6);
+  color: black;
+}
 
 .link-text {
   display: none;
