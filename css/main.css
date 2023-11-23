@@ -1,13 +1,15 @@
 /* 
 -------ARTICLE--------
  */
+#body-index {
+  background-image: url("../images/background.jpeg");
+  background-size: cover;
+  background-position: center;
+}
 .home {
   margin-left: 6rem;
   padding: 1rem 10rem;
   height: 100vh;
-  background-image: url("../images/background.jpeg");
-  background-size: cover;
-  background-position: center;
   display: flex;
   align-items: center;
 }
@@ -251,20 +253,32 @@ Allows me to get an animation when the field is focused
 
 .education-box {
   margin: 2rem;
+  margin-left: 6rem;
   padding: 1rem;
   border: 5px solid var(--bg-secondary);
   border-radius: 1rem;
-  width: 40vw;
+  max-width: 50rem;
   height: 40vh;
+  overflow: auto;
 }
 
 .education-box h3 {
   font-size: 2rem;
+  margin: 0;
+}
+/* 
+-----Dark mode button-----
+*/
+.dark {
+  background-color: #2e2e2e;
+  color: white;
+}
+.dark-index {
+  background-size: cover;
+  background-position: center;
+  color: white;
 }
 
-/* --------------------INSPELNING OM API------------------------------
-https://drive.google.com/file/d/1-6Tpdn6o6ZzeqKUTsBfGwwbGQ9WL90Ju/view 
----------------------------------------------------------------------*/
 /*
   Media queries
   */
@@ -341,6 +355,7 @@ https://drive.google.com/file/d/1-6Tpdn6o6ZzeqKUTsBfGwwbGQ9WL90Ju/view
     margin-bottom: 6rem;
   }
   .education-box {
+    margin: 20px auto;
     width: 90vw;
   }
 }
