@@ -20,35 +20,12 @@ async function getEducation() {
     volvoBox.appendChild(volvoText);
 
     // Add text for educationBox
-    const educationText1 = document.createElement("li");
-    educationText1.innerHTML = data.education.myEducation1;
-    educationBox.appendChild(educationText1);
 
-    const educationText2 = document.createElement("li");
-    educationText2.innerHTML = data.education.myEducation2;
-    educationBox.appendChild(educationText2);
-
-    const educationText3 = document.createElement("li");
-    educationText3.innerHTML = data.education.myEducation3;
-    educationBox.appendChild(educationText3);
-
-    // createElement("li", data.education.myEducation1);
-    // createElement("li", data.education.myEducation2);
-    // createElement("li", data.education.myEducation3);
-
-    // function createElement(elem, text) {
-    //   const newElem = document.createElement(elem);
-    //   newElem.textContent = text;
-    //   ElementAttAppendaTill.appendChild(newElem);
-    // }
-
-    // const educationBox = document.getElementById("education");
-
-    // for (let i = 1; i <= 3; i++) {
-    //   const educationText = document.createElement("li");
-    //   educationText.innerHTML = data.education["myEducation" + i];
-    //   educationBox.appendChild(educationText);
-    // }
+    for (let i = 1; i <= 3; i++) {
+      const educationText = document.createElement("li");
+      educationText.innerHTML = data.education["myEducation" + i];
+      educationBox.appendChild(educationText);
+    }
   } else {
     console.log("Error:", response.status);
   }
