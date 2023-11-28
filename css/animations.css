@@ -195,6 +195,11 @@ Social links animation
   width: 100%;
 }
 
+.project-box button:hover {
+  scale: 1.1;
+  cursor: pointer;
+  background-color: black;
+}
 /* 
 KEYFRAMES ANIMATION
  */

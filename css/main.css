@@ -4,7 +4,7 @@
 #body-index {
   background-image: url("../images/background.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: 55%;
 }
 .home {
   margin-left: 6rem;
@@ -40,11 +40,12 @@
 }
 
 .home-content .btn-box {
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: space-between;
   width: 345px;
   height: 50px;
+  bottom: 170px;
 }
 /* 
 Creating buttons
@@ -218,6 +219,7 @@ Allows me to get an animation when the field is focused
 }
 
 .project-box {
+  position: relative;
   margin: 3rem;
   padding: 1rem;
   border: 5px solid var(--bg-secondary);
@@ -227,7 +229,46 @@ Allows me to get an animation when the field is focused
 }
 
 .project-box h3 {
+  display: inline;
   font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.555);
+  color: var(--bg-primary);
+  border-radius: 0.5rem;
+  padding: 3px;
+  margin-top: 0px;
+}
+.project-box p {
+  color: var(--bg-primary);
+  font-size: 1.2rem;
+  font-weight: 800;
+  background-color: rgba(0, 0, 0, 0.555);
+  padding: 5px;
+  border-radius: 0.5rem;
+}
+.project-box button {
+  position: absolute;
+  bottom: 15px;
+  background-color: rgba(0, 0, 0, 0.555);
+  border: none;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease-in-out;
+  
+}
+.project-box a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  padding: 7px;
+  font-weight: 900;
+}
+
+.project-box:nth-child(1) {
+  background-image: url("../images/rock-paper-scissors-neon-icons-vector\(1\).jpg");
+  background-size: cover;
+}
+.project-box:nth-child(2) {
+  background-image: url("../images/webp_22db94bf-dc6b-42d0-b9b4-fb3e2c641d16.jpg");
+  background-size: cover;
 }
 
 /*  
@@ -283,6 +324,9 @@ Allows me to get an animation when the field is focused
   Media queries
   */
 @media only screen and (max-width: 1600px) {
+  #body-index {
+    background-position: 65%;
+  }
   /* 
   -----ARTICLE-----
    */
@@ -320,11 +364,16 @@ Allows me to get an animation when the field is focused
   .home-content .btn-box {
     position: absolute;
     bottom: 170px;
+    flex-direction: column;
+    height: 100px;
+    gap: 10px;
   }
   .home-sci {
     position: absolute;
     bottom: 100px;
     left: 20px;
+    justify-content: start;
+    gap: 10px;
   }
   /* 
   -----CONTACT-----

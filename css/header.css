@@ -44,6 +44,7 @@ NAVBAR
   position: fixed;
   background-color: var(--bg-secondary);
   transition: width 200ms ease;
+  z-index: 1;
 }
 
 .navbar-nav {
@@ -113,6 +114,7 @@ Small screens
   .nav-link {
     justify-content: center;
     align-items: center;
+    scale: 0.8;
   }
   .nav-item:last-child {
     margin: 0;
