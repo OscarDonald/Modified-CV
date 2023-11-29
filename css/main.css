@@ -216,6 +216,7 @@ Allows me to get an animation when the field is focused
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+
 }
 
 .project-box {
@@ -226,6 +227,7 @@ Allows me to get an animation when the field is focused
   border-radius: 1rem;
   width: 30vw;
   height: 40vh;
+  
 }
 
 .project-box h3 {

@@ -37,6 +37,7 @@ NAVBAR ANIMATIONS
   background-color: rgba(255, 255, 255, 0.37);
   border-radius: 10px;
   transition: 200ms ease-in-out;
+  animation-delay: 2s;
 }
 .navbar:hover .nav-link i {
   margin: 0;
