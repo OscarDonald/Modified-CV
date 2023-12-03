@@ -196,7 +196,7 @@ Social links animation
   width: 100%;
 }
 
-.project-box button:hover {
+.linkGame:hover {
   scale: 1.1;
   cursor: pointer;
   background-color: black;

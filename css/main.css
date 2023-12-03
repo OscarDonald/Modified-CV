@@ -247,14 +247,14 @@ Allows me to get an animation when the field is focused
   padding: 5px;
   border-radius: 0.5rem;
 }
-.project-box button {
+.project-box .linkGame {
   position: absolute;
   bottom: 15px;
   background-color: rgba(0, 0, 0, 0.555);
   border: none;
   border-radius: 0.5rem;
   transition: all 0.3s ease-in-out;
-  
+  padding: 5px;
 }
 .project-box a {
   text-decoration: none;
